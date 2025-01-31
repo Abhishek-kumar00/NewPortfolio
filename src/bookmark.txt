@@ -1,0 +1,6 @@
+1 change the home section color 
+1.5  add that svg
+2 fix the footer
+3 fix home1 sections
+4 change the content of the home2 
+5 fix "tools i use" and "professional skill sets"
