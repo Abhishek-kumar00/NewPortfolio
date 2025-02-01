@@ -63,7 +63,7 @@ function About() {
           <Tilt>
             <img
               className="w-64 md:w-80 lg:w-80 rounded-lg shadow-lg"
-              src="src/assets/personimage.svg"
+              src="/personimage.svg"
               alt="person"
             />
           </Tilt>

@@ -37,7 +37,7 @@ function Home() {
 
         
           <div className={`image flex justify-center lg:justify-end w-full lg:w-1/2 mt-6 lg:mt-0 lg:mr-10 fade-in ${isVisible ? 'fade-in-active' : ''} `}>
-            <img className="w-98 md:w-80 lg:w-96 rounded-lg shadow-lg" src="src/assets/home-main.svg" alt="avatar" />
+            <img className="w-98 md:w-80 lg:w-96 rounded-lg shadow-lg" src="/home-main.svg" alt="avatar" />
           </div>
         </div>
       </div>
