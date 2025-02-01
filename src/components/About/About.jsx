@@ -83,7 +83,7 @@ function About() {
         </div>
         <br />
         <div className="tools">
-          <h1 className='text-white text-3xl font-bold'>tools is use </h1>
+          <h1 className='text-white text-3xl font-bold'><span className='text-purple-400'> Tools</span> I use </h1>
           <br />
           <ToolsCard />
         </div>
