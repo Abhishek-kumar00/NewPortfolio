@@ -14,10 +14,10 @@ function Home() {
   },[]);
   return (
     <>
-      <div className="main-container">
-        <div className="home-container flex flex-col lg:flex-row lg:justify-between lg:items-center p-6">
+      <div className="main-container ">
+        <div className="home-container flex flex-col lg:flex-row lg:justify-between lg:items-center p-6 ">
         
-          <div className="home-content flex flex-col justify-center items-center lg:items-start w-full lg:w-1/2 space-y-6 lg:space-x-12 lg:15">
+          <div className="home-content flex flex-col justify-center items-center lg:items-start w-full lg:w-1/2 space-y-6 lg:space-x-12 lg:15 ">
             {/* <ParticleBackground /> */}
             <h1 className=" text-white text-3xl lg:text-4xl font-bold text-center lg:text-left">
               <Hello />
