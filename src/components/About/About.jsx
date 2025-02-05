@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react';
 import Tilt from 'react-parallax-tilt';
 import TechCard from './TechCard';
 import ToolsCard from './ToolsCard';
+import Awards from './Awards';
 
 function About() {
   const [isVisible,setvisible]=useState(false);
@@ -90,13 +91,10 @@ function About() {
         <br />
         <br />
         <div className="projects">
-          <h1 className='text-purple-700 text-3xl font-bold'>Projects</h1>
+          <h1 className='text-purple-700 text-3xl font-bold'>Awards</h1>
           <br />
           <div className="proj text-white text-lg">
-            <p>
-              currently I dont have any projects to show 😞
-              but dont worry I will be adding some projects soon belive it🔥 
-            </p>
+            <Awards />
           </div>
         </div>
     </>
