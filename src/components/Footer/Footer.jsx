@@ -14,7 +14,7 @@ function Footer() {
                     <a href="https://github.com/Abhishek-kumar00" aria-label="GitHub">
                         <FontAwesomeIcon icon={faGithub} size="lg" />
                     </a>
-                    <a href="https://www.linkedin.com/in/abhishek-kumar00" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/me?trk=p_mwlite_profile_view-secondary_nav" aria-label="LinkedIn">
                         <FontAwesomeIcon icon={faLinkedin} size="lg" />
                     </a>
                 </div>
