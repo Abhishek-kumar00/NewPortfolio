@@ -72,7 +72,7 @@ function Contact() {
                   id="name"
                   value={formData.name}
                   onChange={handleChange}
-                  placeholder="Full Name"
+                  required placeholder="Full Name"
                   className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold 
                   focus:border-purple-700 focus:outline-none"
                 />
@@ -86,7 +86,7 @@ function Contact() {
                   id="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="Email"
+                  required placeholder="Email"
                   className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold 
                   focus:border-purple-700 focus:outline-none"
                 />
@@ -99,7 +99,7 @@ function Contact() {
                   id="message"
                   value={formData.message}
                   onChange={handleChange}
-                  placeholder="Enter your message"
+                  required placeholder="Enter your message"
                   className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold 
                   focus:border-purple-700 focus:outline-none"
                 ></textarea>
